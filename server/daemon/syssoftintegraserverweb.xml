@@ -1,0 +1,31 @@
+<service>
+	<id>syssoftintegraserverweb.exe</id>
+	<name>SysSoftIntegra Server Web</name>
+	<description>The websocket server for the SysSoftIntegra project.</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>D:\node js\Node.js, Express &amp; MySQL Tutorial - Build a Simple FullStack App\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>D:\node js\Node.js, Express &amp; MySQL Tutorial - Build a Simple FullStack App\server\app.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>SysSoftIntegra Server Web wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>DESKTOP-AA9V8PM</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>D:\node js\Node.js, Express &amp; MySQL Tutorial - Build a Simple FullStack App</workingdirectory>
+</service>
