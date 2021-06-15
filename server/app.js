@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 5000);
 
 let database = new DataBase();
 
@@ -239,7 +239,7 @@ async function getIngresosById(idDni, response) {
 }
 
 app.get('*', function (req, res) {
-    res.send('Págino no encontrada error 404', 404);
+    res.status(404).send('Págino no encontrada error 404');
 });
 
 //The 404 Route (ALWAYS Keep this as the last route)
